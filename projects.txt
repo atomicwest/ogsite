@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>J. Go - Recent Graduate in Electrical Engineering </title>
+	<meta name="viewport" content="width=divice-width, initial scale=1.0">
+	
+<style>
+
+</style>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="callout">
+			<p>Fake phone number <b>1-800-123-4567</b></p>
+		</div>
+		
+		<header>
+			<a href="logo#"><img src="http://static.wixstatic.com/media/c98cf1_dd816f21982643e4a3b0736bba7d9ccb.jpg_srz_p_361_356_75_22_0.50_1.20_0.00_jpg_srz" alt="J. Go" title="J. Go"/></a>
+		</header>
+		<nav>
+			<ul>
+				<li class='active'><a href="#">Home</a></li>
+				<li><a href="#">Resume</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Miscellaneous</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<div class ="banner">
+			<img src="http://static.wixstatic.com/media/c98cf1_9f14f2e0900d45898eb3bf96b0a0198a.jpg_srb_p_600_357_75_22_0.50_1.20_0.00_jpg_srb" />
+		</div>
+		
+		
+	</div>
+</body>
+
+</html>

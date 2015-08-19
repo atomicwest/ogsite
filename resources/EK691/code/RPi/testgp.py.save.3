@@ -1,0 +1,28 @@
+#! /usr/bin/python
+
+import RPi.GPIO as GPIO
+import os
+import numpy as np
+import time
+
+print GPIO.VERSION
+
+#choose the GPIO pin as input
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(04, GPIO.IN)
+
+#initialize parameter for IR digital output
+outv = 0
+counter = 0
+
+#initiate infinite loop for data collection
+while True:
+	counter += 1
+	if (GPIO.input(04)):
+		#print "output on Pin 7 detected"
+		print
+	else: 
+		#print "no output on Pin 7"
+		#print "000000"
+	time.sleep(0.25)

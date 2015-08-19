@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>J. Go - Projects </title>
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	
+<style>
+body {
+	background: #EEEEE0;
+	font-family: Lucida Sans Unicode, Tahoma, Arial, sans-serif;
+	font-size: 14px;
+	overflow: auto;
+}
+
+p {
+	padding: 3%
+	color: #ADD8E6;
+}	
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 50px;
+}
+nav ul li {
+	float: left;
+	border: 1px solid #F4F4F4;
+	width: 15%;
+}
+nav ul li a {
+	background: #FFF5EE;
+	display: block; 
+	padding: 5% 12%;
+	font-weight: bold;
+	font-size: 18px;
+	color: #668B8B;
+	text-decoration: none;
+	text-align: center;
+}
+nav ul li a:hover, nav ul li.active a {
+	background: #191970;
+	color: #FFF5EE; 
+}
+.banner img {
+	width: 100%;
+	border-top: 1px solid #FFF5EE;
+	border-bottom: 1px solid #FFF5EE;
+}
+.sidebar {
+	width: 40%;
+	float: right;
+	margin: 1%;
+	text-align: center;
+}
+.section {
+	width: 29%
+	float: left;
+	margin: 1% 1%;
+	text-align: center; 
+}
+
+#right-text {
+	width: 55%;
+	float: right; 
+	margin: -2% 1% 1% 1%; 
+}
+</style>
+</head>
+
+<body>
+	<header>
+		<link rel="shortcut icon" href="resources/images/iconavatar.ico">
+	</header>
+	<div id="wrapper">
+	
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li  class='active'><a href="projects.html">Projects</a></li>
+				<li><a href="misc.html">Miscellaneous</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<br>
+		<br>
+	
+		<aside class="sidebar">
+			<div style="height: 300px">
+				<img src="resources/images/volunteer1.png" alt=" " style="width: 30%;max-height: 100%" />
+			</div>
+		</aside>
+	
+		<p><b> Current Projects: </b> <br>
+		<section class="right-text">
+		<u> Volunteer Manager App</u><br>
+			I worked with after-school K-12 programs in San Francisco and Oakland as an undergrad, while also interacting with different groups on campus. One potentially troublesome thing that occurred 
+			everyday was tracking attendance, especially for those who were participating for credit over the 
+			course of the semester. The idea behind the Volunteer Manager is to have an easy way to track 
+			attendance in addition to other aspects of the daily schedule, such as organizing transportation 
+			to and from volunteer sites. Furthermore, organizations will have the flexibility of shaping the 
+			app to meet their specific needs, such as if volunteers are required to fill out progress sheets 
+			for one-on-one tutoring.</p><br>
+		</section>	
+		
+		<p><b> Past Projects: </b><br>
+		<section class="right-text">
+		<u> Master's Practicum: IoT Infant Monitor</u><br>
+			Our group wanted to add an extra level of connectivity to commercially-available baby monitors, 
+			specifically for addressing Sudden Infant Death Syndrome (SIDS) and alerting to parents when 
+			breathing has stopped. After interviewing parents, one issue that came up was the abrupt nature of 
+			monitor alarms that might occur for false readings. We wanted to utilize mobile technology to 
+			enable the parent to receive alerts, for example, even if the parent were outside in the yard 
+			while the baby was napping indoors. We produced a prototype that sent SMS text alerts to parents' 
+			phones when detected breathing dropped for about 20 seconds. If a parent wanted to see their 
+			child's breathing rate in real-time, I created a simple webpage integrated with Plotly that 
+			graphed our physical sensor data. Ideally, a single, fully developed app would be responsible for 
+			receiving alerts and displaying breathing data, but our time constraints limited us to separate 
+			native SMS and web page data display. <br>
+		</p> <br>
+		<p><u>Landscape Evolution Simulations in MATLAB</u></p><br>
+		<p><u>GIS Distribution of Argia vivida in California</u></p><br>
+		</section>
+		
+			
+		<div class ="banner">
+			<!--<img src="" />-->
+		</div>
+		
+		<p> More updates soon </p>
+		
+	</div>
+</body>
+
+</html>
